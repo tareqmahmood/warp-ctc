@@ -6,7 +6,11 @@ This is an extension onto the original repo found [here](https://github.com/baid
 
 ## Installation
 
-Install [PyTorch](https://github.com/pytorch/pytorch#installation) v0.4.
+Install PyTorch. I only tested for this:
+
+```bash
+conda install -y pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+```
 
 `WARP_CTC_PATH` should be set to the location of a built WarpCTC
 (i.e. `libwarpctc.so`).  This defaults to `../build`, so from within a
